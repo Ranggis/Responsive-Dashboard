@@ -1,5 +1,3 @@
-Responsive Dashboard
-
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Active-brightgreen" />
   <img src="https://img.shields.io/badge/React%20Native-0.82-61DAFB" />
@@ -7,6 +5,10 @@ Responsive Dashboard
   <img src="https://img.shields.io/badge/TypeScript-5.x-3178C6" />
   <img src="https://img.shields.io/badge/License-MIT-orange" />
 </p>
+
+<p align="center">Dashboard berbasis <strong>React Native</strong> yang mendukung tampilan <strong>Mobile, Tablet, dan Large Tablet</strong> dengan konsep <strong>Responsive dan Orientation-Aware Layout</strong>. Project ini dikembangkan sebagai bagian dari tugas Pemrograman Mobile.</p>
+
+<h1 align="center">Responsive Dashboard</h1>
 
 Dashboard berbasis **React Native** yang mendukung tampilan **Mobile, Tablet, dan Large Tablet** dengan konsep **Responsive dan Orientation-Aware Layout**. Project ini dikembangkan sebagai bagian dari tugas Pemrograman Mobile.
 
