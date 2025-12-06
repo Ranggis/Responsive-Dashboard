@@ -8,7 +8,12 @@
   <img src="https://img.shields.io/badge/License-MIT-orange" />
 </p>
 
-<p align="center">Dashboard berbasis <strong>React Native</strong> yang mendukung tampilan <strong>Mobile, Tablet, dan Large Tablet</strong> dengan konsep <strong>Responsive dan Orientation-Aware Layout</strong>. Project ini dikembangkan sebagai bagian dari tugas Pemrograman Mobile.</p>
+<p align="center">
+Dashboard berbasis <strong>React Native</strong> yang mendukung tampilan 
+<strong>Mobile, Tablet, dan Large Tablet</strong> dengan konsep 
+<strong>Responsive dan Orientation-Aware Layout</strong>. 
+Project ini dikembangkan sebagai bagian dari tugas Pemrograman Mobile.
+</p>
 
 ---
 
@@ -27,31 +32,53 @@
 
 Bagian ini menampilkan hasil pengujian tampilan aplikasi pada berbagai ukuran layar dan orientasi.
 
-### Tabel Preview Screenshot
+### Tabel Preview Screenshot (Ukuran Dirapikan)
 
-| No | Mode Tampilan      | Label                   | Preview                                                                                                                              |
-| -- | ------------------ | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| 1  | Mobile Portrait    | Mobile View             | ![Mobile Portrait](https://github.com/Ranggis/Api-Image/blob/main/localhost_8081_(iPhone%20SE).png)   |
-| 2  | Tablet Portrait    | Tablet View             | ![Tablet Portrait](https://github.com/Ranggis/Api-Image/blob/main/localhost_8081_(iPad%20Mini).png)   |
-| 3  | Mobile Landscape   | Mobile View (Landscape) | ![Mobile Landscape](https://github.com/Ranggis/Api-Image/blob/main/localhost_8081_(iPhone%20SE)%20(1).png) |
-| 4  | Large Tablet / Web | Tablet View (Large)     | ![Large Tablet](https://github.com/Ranggis/Api-Image/blob/main/localhost_8081_(iPad%20Pro).png)         |
+<table align="center">
+  <tr>
+    <th>No</th>
+    <th>Mode Tampilan</th>
+    <th>Label</th>
+    <th>Preview</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Mobile Portrait</td>
+    <td>Mobile View</td>
+    <td>
+      <img src="https://github.com/Ranggis/Api-Image/raw/main/localhost_8081_(iPhone%20SE).png" width="220"/>
+    </td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Tablet Portrait</td>
+    <td>Tablet View</td>
+    <td>
+      <img src="https://github.com/Ranggis/Api-Image/raw/main/localhost_8081_(iPad%20Mini).png" width="240"/>
+    </td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Mobile Landscape</td>
+    <td>Mobile View (Landscape)</td>
+    <td>
+      <img src="https://github.com/Ranggis/Api-Image/raw/main/localhost_8081_(iPhone%20SE)%20(1).png" width="360"/>
+    </td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Large Tablet / Web</td>
+    <td>Tablet View (Large)</td>
+    <td>
+      <img src="https://github.com/Ranggis/Api-Image/raw/main/localhost_8081_(iPad%20Pro).png" width="360"/>
+    </td>
+  </tr>
+</table>
 
 **Catatan:**
 
-* Screenshot ditampilkan langsung dari repository GitHub menggunakan raw link.
-* Ganti `username/rn-responsive-dashboard` dengan username dan nama repository milik kamu.
-* Pastikan file berada di path `assets/screenshots/` sesuai struktur folder.
-
-----|----------------|--------|------------|
-| 1 | Mobile Portrait | Mobile View | `assets/screenshots/mobile-portrait.png` |
-| 2 | Tablet Portrait | Tablet View | `assets/screenshots/tablet-portrait.png` |
-| 3 | Mobile Landscape | Mobile View (Landscape) | `assets/screenshots/mobile-landscape.png` |
-| 4 | Large Tablet / Web | Tablet View (Large) | `assets/screenshots/large-tablet.png` |
-
-**Catatan:**
-
-* Simpan seluruh file screenshot di dalam folder `assets/screenshots/`.
-* Pastikan nama file sesuai dengan yang tercantum di tabel agar mudah ditautkan ke README.
+* Gambar ditampilkan menggunakan **raw GitHub link** agar muncul langsung.
+* Ukuran gambar sudah disesuaikan agar tampilan lebih rapi.
 
 ---
 
@@ -144,4 +171,5 @@ Ranggis
 
 ## Penutup
 
-Repository ini diharapkan dapat menjadi referensi dalam pengembangan antarmuka responsif berbasis React Native. Apabila terdapat saran atau pengembangan lanjutan, silakan disampaikan melalui repository ini.
+Repository ini diharapkan dapat menjadi referensi dalam pengembangan antarmuka responsif berbasis React Native.
+Apabila terdapat saran atau pengembangan lanjutan, silakan disampaikan melalui repository ini.
