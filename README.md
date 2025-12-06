@@ -10,8 +10,6 @@
 
 <p align="center">Dashboard berbasis <strong>React Native</strong> yang mendukung tampilan <strong>Mobile, Tablet, dan Large Tablet</strong> dengan konsep <strong>Responsive dan Orientation-Aware Layout</strong>. Project ini dikembangkan sebagai bagian dari tugas Pemrograman Mobile.</p>
 
-Dashboard berbasis **React Native** yang mendukung tampilan **Mobile, Tablet, dan Large Tablet** dengan konsep **Responsive dan Orientation-Aware Layout**. Project ini dikembangkan sebagai bagian dari tugas Pemrograman Mobile.
-
 ---
 
 ## Fitur Utama
