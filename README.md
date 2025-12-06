@@ -1,4 +1,4 @@
-# Responsive Dashboard
+Responsive Dashboard
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Active-brightgreen" />
