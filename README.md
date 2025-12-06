@@ -29,12 +29,24 @@ Bagian ini menampilkan hasil pengujian tampilan aplikasi pada berbagai ukuran la
 
 ### Tabel Preview Screenshot
 
-| No | Mode Tampilan      | Label                   | Screenshot                                |
-| -- | ------------------ | ----------------------- | ----------------------------------------- |
-| 1  | Mobile Portrait    | Mobile View             | `assets/screenshots/mobile-portrait.png`  |
-| 2  | Tablet Portrait    | Tablet View             | `assets/screenshots/tablet-portrait.png`  |
-| 3  | Mobile Landscape   | Mobile View (Landscape) | `assets/screenshots/mobile-landscape.png` |
-| 4  | Large Tablet / Web | Tablet View (Large)     | `assets/screenshots/large-tablet.png`     |
+| No | Mode Tampilan      | Label                   | Preview                                                                                                                              |
+| -- | ------------------ | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| 1  | Mobile Portrait    | Mobile View             | ![Mobile Portrait](https://raw.githubusercontent.com/username/rn-responsive-dashboard/main/assets/screenshots/mobile-portrait.png)   |
+| 2  | Tablet Portrait    | Tablet View             | ![Tablet Portrait](https://raw.githubusercontent.com/username/rn-responsive-dashboard/main/assets/screenshots/tablet-portrait.png)   |
+| 3  | Mobile Landscape   | Mobile View (Landscape) | ![Mobile Landscape](https://raw.githubusercontent.com/username/rn-responsive-dashboard/main/assets/screenshots/mobile-landscape.png) |
+| 4  | Large Tablet / Web | Tablet View (Large)     | ![Large Tablet](https://raw.githubusercontent.com/username/rn-responsive-dashboard/main/assets/screenshots/large-tablet.png)         |
+
+**Catatan:**
+
+* Screenshot ditampilkan langsung dari repository GitHub menggunakan raw link.
+* Ganti `username/rn-responsive-dashboard` dengan username dan nama repository milik kamu.
+* Pastikan file berada di path `assets/screenshots/` sesuai struktur folder.
+
+----|----------------|--------|------------|
+| 1 | Mobile Portrait | Mobile View | `assets/screenshots/mobile-portrait.png` |
+| 2 | Tablet Portrait | Tablet View | `assets/screenshots/tablet-portrait.png` |
+| 3 | Mobile Landscape | Mobile View (Landscape) | `assets/screenshots/mobile-landscape.png` |
+| 4 | Large Tablet / Web | Tablet View (Large) | `assets/screenshots/large-tablet.png` |
 
 **Catatan:**
 
