@@ -31,10 +31,10 @@ Bagian ini menampilkan hasil pengujian tampilan aplikasi pada berbagai ukuran la
 
 | No | Mode Tampilan      | Label                   | Preview                                                                                                                              |
 | -- | ------------------ | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| 1  | Mobile Portrait    | Mobile View             | ![Mobile Portrait](https://raw.githubusercontent.com/username/rn-responsive-dashboard/main/assets/screenshots/mobile-portrait.png)   |
-| 2  | Tablet Portrait    | Tablet View             | ![Tablet Portrait](https://raw.githubusercontent.com/username/rn-responsive-dashboard/main/assets/screenshots/tablet-portrait.png)   |
-| 3  | Mobile Landscape   | Mobile View (Landscape) | ![Mobile Landscape](https://raw.githubusercontent.com/username/rn-responsive-dashboard/main/assets/screenshots/mobile-landscape.png) |
-| 4  | Large Tablet / Web | Tablet View (Large)     | ![Large Tablet](https://raw.githubusercontent.com/username/rn-responsive-dashboard/main/assets/screenshots/large-tablet.png)         |
+| 1  | Mobile Portrait    | Mobile View             | ![Mobile Portrait](https://github.com/Ranggis/Api-Image/blob/main/localhost_8081_(iPhone%20SE).png)   |
+| 2  | Tablet Portrait    | Tablet View             | ![Tablet Portrait](https://github.com/Ranggis/Api-Image/blob/main/localhost_8081_(iPad%20Mini).png)   |
+| 3  | Mobile Landscape   | Mobile View (Landscape) | ![Mobile Landscape](https://github.com/Ranggis/Api-Image/blob/main/localhost_8081_(iPhone%20SE)%20(1).png) |
+| 4  | Large Tablet / Web | Tablet View (Large)     | ![Large Tablet](https://github.com/Ranggis/Api-Image/blob/main/localhost_8081_(iPad%20Pro).png)         |
 
 **Catatan:**
 
