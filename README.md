@@ -67,7 +67,7 @@ Bagian ini menampilkan hasil pengujian tampilan aplikasi pada berbagai ukuran la
   </tr>
   <tr>
     <td>4</td>
-    <td>Large Tablet / Web</td>
+    <td>Large Tablet</td>
     <td>Tablet View (Large)</td>
     <td>
       <img src="https://github.com/Ranggis/Api-Image/raw/main/localhost_8081_(iPad%20Pro).png" width="360"/>
