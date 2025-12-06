@@ -1,50 +1,136 @@
-# Welcome to your Expo app 👋
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen" />
+  <img src="https://img.shields.io/badge/React%20Native-0.82-61DAFB" />
+  <img src="https://img.shields.io/badge/Expo-~51-000020" />
+  <img src="https://img.shields.io/badge/TypeScript-5.x-3178C6" />
+  <img src="https://img.shields.io/badge/License-MIT-orange" />
+</p>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# RN Responsive Dashboard
 
-## Get started
+Dashboard berbasis **React Native** yang mendukung tampilan **Mobile, Tablet, dan Large Tablet** dengan konsep **Responsive dan Orientation-Aware Layout**. Project ini dikembangkan sebagai bagian dari tugas Pemrograman Mobile.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## Fitur Utama
 
-2. Start the app
+* Responsive layout untuk Mobile dan Tablet
+* Breakpoint khusus untuk Large Tablet (≥ 1024px)
+* Orientation-aware layout (Portrait dan Landscape)
+* Grid card responsif (1 kolom menjadi 2 kolom)
+* Icon responsif pada setiap card
+* Dukungan SafeAreaView untuk menghindari area notch dan status bar
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## Preview Tampilan
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Bagian ini menampilkan hasil pengujian tampilan aplikasi pada berbagai ukuran layar dan orientasi.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Tabel Preview Screenshot
 
-## Get a fresh project
+| No | Mode Tampilan      | Label                   | Screenshot                                |
+| -- | ------------------ | ----------------------- | ----------------------------------------- |
+| 1  | Mobile Portrait    | Mobile View             | `assets/screenshots/mobile-portrait.png`  |
+| 2  | Tablet Portrait    | Tablet View             | `assets/screenshots/tablet-portrait.png`  |
+| 3  | Mobile Landscape   | Mobile View (Landscape) | `assets/screenshots/mobile-landscape.png` |
+| 4  | Large Tablet / Web | Tablet View (Large)     | `assets/screenshots/large-tablet.png`     |
 
-When you're ready, run:
+**Catatan:**
+
+* Simpan seluruh file screenshot di dalam folder `assets/screenshots/`.
+* Pastikan nama file sesuai dengan yang tercantum di tabel agar mudah ditautkan ke README.
+
+---
+
+## Teknologi yang Digunakan
+
+* React Native
+* Expo
+* TypeScript
+* react-native-safe-area-context
+* @expo/vector-icons (Feather)
+
+---
+
+## Cara Menjalankan Project
+
+1. Clone repository
 
 ```bash
-npm run reset-project
+git clone https://github.com/username/rn-responsive-dashboard.git
+cd rn-responsive-dashboard
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Install dependency
 
-## Learn more
+```bash
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+3. Jalankan project
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npx expo start
+```
 
-## Join the community
+4. Pilih metode menjalankan aplikasi:
 
-Join our community of developers creating universal apps.
+* Tekan `a` untuk Android Emulator
+* Tekan `w` untuk Web Browser
+* Scan QR Code untuk menjalankan di perangkat fisik
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## Breakpoint yang Digunakan
+
+| Mode         | Lebar Layar |
+| ------------ | ----------- |
+| Mobile       | < 768px     |
+| Tablet       | ≥ 768px     |
+| Large Tablet | ≥ 1024px    |
+
+---
+
+## Perilaku Orientation-Aware Layout
+
+* Mobile Portrait: 1 kolom
+* Mobile Landscape: 2 kolom (tablet-style layout)
+* Tablet (semua orientasi): 2 kolom
+
+---
+
+## Struktur Data Card
+
+Setiap card menggunakan struktur data sebagai berikut:
+
+```ts
+{
+  title: string;
+  description: string;
+  icon: IconName;
+}
+```
+
+---
+
+## Tujuan Pengembangan
+
+Project ini bertujuan untuk:
+
+* Menerapkan konsep responsive layout pada React Native
+* Mengimplementasikan breakpoint dan orientation-aware UI
+* Mengelola tampilan lintas ukuran layar secara dinamis dan konsisten
+
+---
+
+## Author
+
+Ranggis
+Mahasiswa – Pemrograman Mobile
+
+---
+
+## Penutup
+
+Repository ini diharapkan dapat menjadi referensi dalam pengembangan antarmuka responsif berbasis React Native. Apabila terdapat saran atau pengembangan lanjutan, silakan disampaikan melalui repository ini.
