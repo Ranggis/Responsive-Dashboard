@@ -127,7 +127,6 @@ Project ini bertujuan untuk:
 ## Author
 
 Ranggis
-Mahasiswa – Pemrograman Mobile
 
 ---
 
